@@ -1,0 +1,12 @@
+{
+  "name": "linkhub",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LinkHub monorepo launcher - proxies to the Next.js frontend",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "backend": "python backend\\manage.py runserver"
+  }
+}

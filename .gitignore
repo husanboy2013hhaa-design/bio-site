@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/.env
+backend/db.sqlite3
+backend/staticfiles/
+backend/media/
+*.sqlite3
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+frontend/.env
+frontend/.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.vercel
+.env*
